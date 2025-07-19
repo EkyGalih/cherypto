@@ -4,7 +4,7 @@ namespace EkyGalih\Cherypto;
 
 use Illuminate\Support\ServiceProvider;
 
-class SunsetThemeServiceProvider extends ServiceProvider
+class CheryptoThemeServiceProvider extends ServiceProvider
 {
     public function boot()
     {
