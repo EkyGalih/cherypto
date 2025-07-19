@@ -1,0 +1,24 @@
+{
+    "name": "ekygalih/cherypto",
+    "description": "Crypto theme for CMS NTB",
+    "type": "laravel-theme",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Eky Galih",
+            "email": "ekygalih@ntbprov.go.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EkyGalih\\Cherypto\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EkyGalih\\Cherypto\\CheryptoThemeServiceProvider"
+            ]
+        }
+    }
+}
